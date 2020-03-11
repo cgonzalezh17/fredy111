@@ -1,0 +1,73 @@
+body{
+    background: #51c7fe;
+    margin-top: 50px;
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.contendor.img{
+    display: flexbox;
+    background-repeat: no-repeat;/*no repetir en smarphon pequeños*/
+    background-attachment: fixed;/*imagen se quede fija*/
+    background-size: cover;/*sea como un sticker*/
+    
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+.form-form{
+    display: flex;
+    flex-direction: column; /*Aca es en columna por que el formulario va hacia abajo*/
+    max-width: 100%;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    opacity: 90%;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 3px 0 10px -5px black;
+    padding: 10px 30px 10px 30px;
+
+}
+.form-grupo{
+    margin-top: 20px;
+}
+
+.contenedor-login{
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 621px;
+    width: 505px;
+}
+.contenedor-texto{
+    text-align: center;
+    padding-top: 10rem;
+    max-width: 100%;
+    width: 300px;
+    height: 150px;
+    color: blue;
+}
+.lorem{
+    font-size: 8px;
+    color: #a9a9a9;
+}
+
+@media screen and (max-width: 480px){
+    .contenedor{
+
+        flex-direction: column;
+        text-align: center;
+    }
+}
